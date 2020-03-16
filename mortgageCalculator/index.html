@@ -33,8 +33,16 @@
       <li>
         <div id="results"></div>
         <br>
-        <input type="submit" value="Calculate" onclick="calculateMortgage()">
-        <input type="submit" onclick="clearForm()" value="Reset">
+        <input type="submit" value="Calculate" onclick="printMortgage()">
+        <input type="submit" onclick="resetCalculator()" value="Reset">
+
+        <hr>
+        <p>PAYMENT SCHEDULE</p>
+        <input type="submit" value="View Schedule" onclick="printPaymentSchedule()">
+        <br>
+        <br>
+        <br>
+        <div id="paymentSchedule"></div>
 
       </li>
     </ul>
