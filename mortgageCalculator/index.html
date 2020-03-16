@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <div class="form-style-7">
+    <h1>Mortgage Calculator</h1>
+    <ul>
+      <li>
+        <label for="principal">Principal</label>
+        <input type="text" name="principal " id="principal" maxlength="100" />
+        <span>Enter your principal amount (1K - 1M)</span>
+      </li>
+      <li>
+        <label for="interest">Annual Interest Rate</label>
+        <input type="text" name="interest" id="interest" maxlength="100" />
+        <span>Enter your annual interest rate (1-30)</span>
+      </li>
+      <li>
+        <label for="years">Term of Mortgage</label>
+        <input type="text" name="years" id="years" maxlength="100" />
+        <span>Enter the term of your mortgage (1-30)</span>
+      </li>
+      <li>
+        <div id="results"></div>
+        <br>
+        <input type="submit" value="Calculate" onclick="calculateMortgage()">
+        <input type="submit" onclick="clearForm()" value="Reset">
+
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
