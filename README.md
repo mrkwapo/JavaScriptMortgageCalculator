@@ -6,4 +6,4 @@ This repository contains a Mortgage Calculator using:
 * CSS
 * Node.js
 * Express.js
-* Heroku [Demo](https://javascript-mortgage-calculator.herokuapp.com/ "JavaScript Mortgage Calculator")
+* Heroku [(Demo)](https://javascript-mortgage-calculator.herokuapp.com/ "JavaScript Mortgage Calculator")
